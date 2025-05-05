@@ -9,7 +9,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <div className="navbar-left">
-                    <img src='public/Comp Logo.svg' alt='Store Logo' className='navbar-logo' />
+                    <img src='/computar.svg' alt='Store Logo' className='nav-main-logo' />
                 </div>
 
                 <div className='navbar-center'>
@@ -18,10 +18,10 @@ function Navbar() {
                     <a href='/' className='nav-item'>Contact</a>
                 </div>
 
-                <div>
-                    <img src='public\Search Logo.svg' alt='Search Logo' className='nav-logo'/>
+                <div className="navbar-right">
+                    <img src='/Search Logo.svg' alt='Search Logo' className='nav-logo'/>
                     <a href="https://www.flaticon.com/free-icons/smart-cart" title="smart cart icons">
-                        <img src='public\shopping-cart.png' alt='Cart Logo' className='nav-logo'/>
+                        <img src='/shopping-cart.png' alt='Cart Logo' className='nav-logo'/>
                     </a>
                 </div>
             </div>
